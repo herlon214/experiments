@@ -9,7 +9,6 @@ verify group sizes.
 ### Results
 | Type               | Group 1 | Group 2 | Group 3 | Group 4 | Group 5 | Group 6 | Group 7 |
 | ------------------ | ------- | ------- | ------- | ------- | ------- | ------- | ------- |
-| No quantization    | 2       | 2       | 2       | 1       | 1       | 1       |         |
 | Quantization 1bit  | 93      | 85      | 62      | 48      | 2       | 2       | 1       |
 | Quantization 2bits | 68      | 51      | 45      | 44      | 39      | 33      | 28      |
 | Quantization 3bits | 41      | 25      | 21      | 21      | 17      | 17      | 16      |
@@ -17,10 +16,7 @@ verify group sizes.
 | Quantization 5bits | 17      | 5       | 4       | 4       | 3       | 2       | 2       |
 | Quantization 6bits | 7       | 5       | 4       | 3       | 2       | 2       | 2       |
 | Quantization 7bits | 5       | 2       | 2       | 2       | 2       | 2       | 2       |
-
-No quantization:
-
-![No quantization](./blocks_8bits.png)
+| No quantization    | 2       | 2       | 2       | 1       | 1       | 1       |         |
 
 1 bit:
 
@@ -49,3 +45,8 @@ No quantization:
 7 bits:
 
 ![Block 7](./blocks_7bits.png)
+
+
+No quantization:
+
+![No quantization](./blocks_8bits.png)
