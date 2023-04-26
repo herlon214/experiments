@@ -18,6 +18,10 @@ verify group sizes.
 | Quantization 7bits | 5       | 2       | 2       | 2       | 2       | 2       | 2       |
 | No quantization    | 2       | 2       | 2       | 1       | 1       | 1       |         |
 
+
+(Blocks follow the same group order, 1, 2, 3...)
+
+
 1 bit:
 
 ![Block 1](./blocks_1bits.png)
