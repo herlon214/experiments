@@ -99,7 +99,7 @@ function App() {
           ></div>
           <div className="flex flex-col mt-10">
             <br />
-            {quantizedValues.map((item, i) => (
+            {quantizedValues.reverse().map((item, i) => (
               <div
                 key={i}
                 style={{
@@ -113,7 +113,7 @@ function App() {
             <p className="pt-10 mr-5">
               RGB({rgb.r}, {rgb.g}, {rgb.b})<br />
               Quantized Hex: <br />
-              {quantizedValues.map((item, i) => (
+              {quantizedValues.reverse().map((item, i) => (
                 <>
                   <b key={i}>
                     {i + 1} bits - {item}
